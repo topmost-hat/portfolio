@@ -1,0 +1,74 @@
+# made with much help from video by Tahseer
+# https://www.youtube.com/watch?v=EZI9kydYhfA
+
+baseURL: https://topmost-hat.github.io/portfolio/
+languageCode: en-us
+title: Atticus Clark
+theme: PaperMod
+
+menu:
+    main:
+    - identifier: experience
+      name: Experience
+      url: /experience
+      weight: 1
+    - identifier: projects
+      name: Projects
+      url: /projects
+      weight: 2
+#    - identifier: tags
+#      name: Tags
+#      url: /tags
+#      weight: 3
+    - identifier: search
+      name: Search
+      url: /search
+      weight: 4
+
+params:
+    # theme
+    showToc: false
+    TocOpen: false
+    ShowBreadCrumbs: true
+    ShowCodeCopyButtons: false
+    hideMeta: false
+    hideSummary: true
+
+    # home page
+    profileMode:
+        enabled: true
+        title: "Atticus Clark"
+        subtitle: "(about me)"
+        imageUrl: "home/pfp.jpg"
+        imageWidth: 220
+        imageHeight: 220
+
+#        buttons:
+#            - name: Test
+#              url: "https://google.com"
+
+    # socials
+    socialIcons:
+        - name: "email"
+          url: "mailto:atticuskclark@gmail.com"
+        - name: "linkedin"
+          url: "https://www.linkedin.com/in/atticus-clark/"
+        - name: "github"
+          url: "https://github.com/topmost-hat"
+        - name: "itchio"
+          url: "https://tticus.itch.io/"
+
+    # search options
+    fuseOpts:
+        ignoreDiacritics: true
+        threshold: 0.2
+        keys: ["title"]
+
+outputs:
+    home:
+        - HTML
+        - JSON
+
+caches:
+    images:
+        dir: :cacheDir/images
