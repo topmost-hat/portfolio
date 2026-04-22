@@ -8,28 +8,32 @@ theme: PaperMod
 
 menu:
     main:
-    - identifier: experience
-      name: Experience
-      url: /experience
+    - identifier: aboutme
+      name: About Me
+      url: /aboutme
       weight: 1
+    - identifier: resume
+      name: Resume
+      url: /resume
+      weight: 2
     - identifier: projects
       name: Projects
       url: /projects
-      weight: 2
+      weight: 3
 #    - identifier: tags
 #      name: Tags
 #      url: /tags
-#      weight: 3
+#      weight: 4
     - identifier: search
       name: Search
       url: /search
-      weight: 4
+      weight: 5
 
 params:
     # theme
     showToc: false
     TocOpen: false
-    ShowBreadCrumbs: true
+    ShowBreadCrumbs: false
     ShowCodeCopyButtons: false
     hideMeta: false
     hideSummary: true
@@ -38,7 +42,7 @@ params:
     profileMode:
         enabled: true
         title: "Atticus Clark"
-        subtitle: "(about me)"
+        subtitle: "Game Programmer"
         imageUrl: "home/pfp.jpg"
         imageWidth: 220
         imageHeight: 220
