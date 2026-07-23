@@ -1,7 +1,7 @@
 # made with much help from video by Tahseer
 # https://www.youtube.com/watch?v=EZI9kydYhfA
 
-baseURL: https://topmost-hat.github.io/portfolio/
+baseURL: https://topmost-hat.github.io/website/
 languageCode: en-us
 title: Atticus Clark
 theme: PaperMod
@@ -59,8 +59,8 @@ params:
           url: "https://www.linkedin.com/in/atticus-clark/"
         - name: "github"
           url: "https://github.com/topmost-hat"
-        - name: "itchio"
-          url: "https://tticus.itch.io/"
+#        - name: "itchio"
+#          url: "https://tticus.itch.io/"
 
     # search options
     fuseOpts:
