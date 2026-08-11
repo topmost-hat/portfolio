@@ -10,15 +10,12 @@ cover:
 ---
 Check out Pick Some Axe on: [Steam](https://store.steampowered.com/app/4459260/Pick_Some_Axe/), [itch.io](https://steveshack.itch.io/pick-some-axe)
 
-### My Role: Gameplay / UI Programmer
-* Made in Unity | Team Size: 13
-* Refactored existing UI systems to make them more maintainable, and created new UI systems with a
-focus on sustainability
-* Designed new gameplay features for combat, puzzle-solving, and exploration
-* Created developer tools with specific functions requested by other programmers and designers to
-optimize the testing process of new features
-
 {{< youtube uKalLEXQJfA >}}
+
+### My Role: Gameplay / UI Programmer
+*Made in Unity | Team Size: 13*
+
+Pick Some Axe is a third-person adventure game where you, Joe Miner, descend into the mines and take on the dastardly Pebblets to rescue your beloved, using your ability to dig into most surfaces to overcome obstacles. I was recruited to the project halfway through its development, joining for the second semester of a two-semester-long project. I worked on a variety of things for the game, including a major rework of the game's UI systems, a variety of minor gameplay features, and a small suite of developer tools for game testing.
 
 ### Code Snippets
 {{< collapse >}}
@@ -264,7 +261,7 @@ public class LastSafePosition : MonoBehaviour
             }
         }
 
-        PlayerState.Save(); // weird place to call this but it should be fine
+        PlayerState.Save();
     }
 
     void FixedUpdate()
