@@ -55,10 +55,12 @@ params:
     socialIcons:
         - name: "email"
           url: "mailto:atticuskclark@gmail.com"
-        - name: "linkedin"
-          url: "https://www.linkedin.com/in/atticus-clark/"
         - name: "github"
           url: "https://github.com/topmost-hat"
+        - name: "linkedin"
+          url: "https://www.linkedin.com/in/atticus-clark/"
+        - name: "handshake"
+          url: "https://app.joinhandshake.com/profiles/akc36"
 #        - name: "itchio"
 #          url: "https://tticus.itch.io/"
 
