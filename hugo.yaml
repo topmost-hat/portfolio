@@ -1,7 +1,7 @@
 # made with much help from video by Tahseer
 # https://www.youtube.com/watch?v=EZI9kydYhfA
 
-baseURL: https://topmost-hat.github.io/website/
+baseURL: https://cool-username-36.github.io/website/
 languageCode: en-us
 title: Atticus Clark
 theme: PaperMod
@@ -55,12 +55,10 @@ params:
     socialIcons:
         - name: "email"
           url: "mailto:atticuskclark@gmail.com"
-        - name: "github"
-          url: "https://github.com/topmost-hat"
         - name: "linkedin"
           url: "https://www.linkedin.com/in/atticus-clark/"
-        - name: "handshake"
-          url: "https://app.joinhandshake.com/profiles/akc36"
+        - name: "github"
+          url: "https://github.com/cool-username-36"
 #        - name: "itchio"
 #          url: "https://tticus.itch.io/"
 
